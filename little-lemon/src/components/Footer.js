@@ -1,11 +1,14 @@
 import Nav from './Nav';
+import Logo from '../icons_assets/Logo.svg';
 
 function Footer() {
   return (
     <>
-			<footer className="App-footer">
+			<footer>
 				{/* Logo */}
+				<img src={Logo} alt="Little Lemon Logo" className="logo" />
 
+				<h3>Doormat Navigation</h3>
 				<Nav navType='doormat'/> {/* Doormat Navigation */}
 
 				<div className="contact">
@@ -16,6 +19,7 @@ function Footer() {
 				</div>
 
 				<div className="social-media">
+					<h3>Social Media</h3>
 					<ul>
 						<li><a href="#twitter">Twitter</a></li>
 						<li><a href="#instagram">Instagram</a></li>

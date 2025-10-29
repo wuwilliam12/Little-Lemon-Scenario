@@ -1,0 +1,14 @@
+/* General navigation styles */
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* Variant navigation styles */
+.nav-primary {
+    padding: 10px;
+}
+
+.nav-doormat {
+    padding: 10px;
+}
