@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500&family=Karla:wght@400;500;700;800&display=swap');
+
+:root {
+    /* Color Scheme */
+    --primary-color-green: #495E57;
+    --primary-color-yellow: #F4CE14;
+
+    --secondary-color-salmon: #EE9972;
+    --secondary-color-peach: #FBDABB;
+
+    --highlight-color-white: #EDEFEE;
+    --highlight-color-black: #333333;
+
+    /* Fonts sizes */
+    --fs-title: 5.125rem; /* 64pt */
+    --fs-subtitle: 3.3125rem; /* 40pt */
+    --fs-lead-text: 1.5rem; /* 18pt */
+    --fs-section-title: 1.667rem; /* 20pt */
+    --fs-section-categories: 1.3125rem; /* 16pt */
+
+    --fs-card-title: 1.5rem; /* 18pt */
+    --fs-card-paragraph: 1.3125rem; /* 16pt */
+    --fs-card-highlight: 1.3125rem; /* 16pt */
+
+    /* Font weights */
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fw-extra-bold: 800;
+
+    /* Font family */
+    --ff-markzai: 'Markazi Text', serif;
+    --ff-karla: 'Karla', sans-serif;
+
+    /* Font Colors */
+    --fc-default: #000000;
+    --fc-highlight-green: #495E57;
+    --fc-highlight-yellow: #F4CE14;
+
+    /* Additional styles */
+    --corners-1: 16;
+    --corners-2: 16;
+}

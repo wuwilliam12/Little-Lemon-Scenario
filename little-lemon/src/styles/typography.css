@@ -1,0 +1,48 @@
+/* Typography */
+.text-display-title {
+  font-size: var(--fs-title);
+  font-weight: var(--fw-medium);
+  font-family: var(--ff-markzai);
+}
+
+.text-subtitle {
+  font-size: var(--fs-subtitle);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-markzai);
+}
+
+.text-lead {
+  font-size: var(--fs-lead-text);
+  font-weight: var(--fw-medium);
+  font-family: var(--ff-karla);
+}
+
+.text-section-title {
+  font-size: var(--fs-section-title);
+  font-weight: var(--fw-extra-bold);
+  font-family: var(--ff-karla);
+}
+
+.text-section-category {
+  font-size: var(--fs-section-categories);
+  font-weight: var(--fw-extra-bold);
+  font-family: var(--ff-karla);
+}
+
+.text-card-title {
+  font-size: var(--fs-card-title);
+  font-weight: var(--fw-bold);
+  font-family: var(--ff-karla);
+}
+
+.text-card-paragraph {
+  font-size: var(--fs-card-paragraph);
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-karla);
+}
+
+.text-card-highlight {
+  font-size: var(--fs-card-highlight);
+  font-weight: var(--fw-medium);
+  font-family: var(--ff-karla);
+}
