@@ -1,13 +1,15 @@
+import './Header.css';
+
 import Nav from './Nav';
 import Logo from '../icons_assets/Logo.svg';
 
 function Header() {
   return (
     <>
-      <header>
+      <header className='header'>
         <img src={Logo} alt="Little Lemon Logo" className="logo" /> {/* Logo */}
 
-        <Nav navType="primary" /> {/* Primary Navigation */}
+        <div className='headerNav'><Nav navType="header" /></div> {/* Primary Navigation */}
       </header>
     </>
   );

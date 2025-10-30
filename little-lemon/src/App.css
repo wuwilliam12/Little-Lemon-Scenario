@@ -1,14 +1,11 @@
 .layout {
   /* General layout styles */
-  display: grid;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
-  grid-template-rows: auto 1fr auto;
   min-height: 100vh;
 
   /* 12-column grid setup */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-auto-flow: row;
   grid-template-columns: repeat(12, 1fr);
   gap: 20px;
 
@@ -17,14 +14,17 @@
   box-sizing: border-box;
 }
 
-.header {
-  grid-area: header;
+.headerRow {
+  grid-row: 1;
+  grid-column: 3 / -3;
 }
 
-.main {
-  grid-area: main;
+.mainRow {
+  grid-row: 2;
+  grid-column: 3 / -3;
 }
 
-.footer {
-  grid-area: footer;
+.footerRow {
+  grid-row: 3;
+  grid-column: 3 / -3;
 }

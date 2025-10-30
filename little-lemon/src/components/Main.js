@@ -1,4 +1,8 @@
-import HeroImage from '../images/restaurant chef B.jpg';
+import './Main.css';
+
+import HeroImage from '../icons_assets/restaurant chef B.jpg';
+import About1 from '../icons_assets/Mario and Adrian A.jpg';
+import About2 from '../icons_assets/Mario and Adrian b.jpg';
 
 function Main() {
   return (
@@ -16,13 +20,15 @@ function Main() {
           </div>
 
           <div className="hero-right">
-            <img src={HeroImage} alt="Hero Image" />
+            <img src={HeroImage} alt="Hero" />
           </div>
         </div>
 
         <div className="specials-section">
-          <h2>Specials</h2>
-          <button>Online Menu</button>
+          <div className='specials-header'>
+            <h2>Specials</h2>
+            <button>Online Menu</button>
+          </div>
 
           <div className="specials-list">
             {/* Specials will go here */}
@@ -47,8 +53,8 @@ function Main() {
           </div>
 
           <div className="about-images">
-            <img src={HeroImage} alt="About Image 1" className="about-image-1" />
-            <img src={HeroImage} alt="About Image 2" className="about-image-2" />
+            <img src={About1} alt="About 1" className="about-1" />
+            <img src={About2} alt="About 2" className="about-2" />
           </div>
         </div>
       </main>

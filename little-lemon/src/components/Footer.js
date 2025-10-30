@@ -8,18 +8,21 @@ function Footer() {
 				{/* Logo */}
 				<img src={Logo} alt="Little Lemon Logo" className="logo" />
 
-				<h3>Doormat Navigation</h3>
-				<Nav navType='doormat'/> {/* Doormat Navigation */}
+        {/* Doormat Navigation */}
+				<h1>Doormat Navigation</h1>
+				<Nav navType='doormat'/>
 
+        {/* Contact info */}
 				<div className="contact">
-					<h3>Contact</h3>
+					<h2>Contact</h2>
 					<p>Address</p>
 					<p>Phone Number</p>
 					<p>Email</p>
 				</div>
 
+        {/* Social media links */}
 				<div className="social-media">
-					<h3>Social Media</h3>
+					<h2>Social Media</h2>
 					<ul>
 						<li><a href="#twitter">Twitter</a></li>
 						<li><a href="#instagram">Instagram</a></li>
