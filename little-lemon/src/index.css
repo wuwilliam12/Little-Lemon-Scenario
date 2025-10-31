@@ -1,6 +1,14 @@
 @import "./styles/variables.css";
 @import "./styles/typography.css";
 
+:root {
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol, li, figure {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 body {
   margin: 0;
   font-family: "'Karla', sans-serif, 'Markazi Text', serif";

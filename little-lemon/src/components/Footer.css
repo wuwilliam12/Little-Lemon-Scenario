@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  min-height: 400px;
+
+  grid-column: 3 / -3;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-list {
+  list-style: none; /* removes bullets */
+  padding: 0;       /* removes default left padding */
+  margin: 0;        /* optional, removes default margin */
+}

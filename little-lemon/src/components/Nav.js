@@ -1,10 +1,10 @@
 import './Nav.css';
 
-function Nav( {navType = "primary"} ) {
+function Nav( {navType = "primary", listStyle=""} ) {
   return (
     <>
-      <nav className={`nav nav-${navType} text-lead`}>
-        <ul>
+      <div className={`nav nav-${navType} text-lead`}>
+        <ul className={listStyle}>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Menu</a></li>
@@ -12,7 +12,7 @@ function Nav( {navType = "primary"} ) {
           <li><a href="#order-online">Order Online</a></li>
           <li><a href="#login">Login</a></li>
         </ul>
-      </nav>
+      </div>
     </>
   );
 }

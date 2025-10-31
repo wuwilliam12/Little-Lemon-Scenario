@@ -4,19 +4,14 @@
   align-items: center;
   justify-content: space-between;
 
-  margin-top: 20px;
-  margin-bottom: 20px;
   height: 120px;
-
-  padding: 1rem;
-
-  background-color: var(--);
+  grid-column: 3 / -3;
 }
 
 .logo {
-  grid-column: 2;
+  max-width: 100%;
 }
 
 .headerNav {
-
+  max-width: 100%;
 }
