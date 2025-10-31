@@ -1,4 +1,4 @@
-
+import "./Card.css"
 
 function SpecialCard({ ImgSrc, DishName, Description, Price }) {
   return (
