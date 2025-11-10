@@ -1,0 +1,12 @@
+/* ABOUT SECTION */
+.about-section {
+  background-color: var(--primary-color-green);
+}
+
+.about-text {
+  grid-column: 3 / -7;
+}
+
+.about-images {
+  grid-column: 7 / -3;
+}

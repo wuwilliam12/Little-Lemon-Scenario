@@ -1,6 +1,6 @@
 import "./CardList.css"
 
-import SpecialCard, {TestimonialCard} from './SpecialCard.js';
+import SpecialCard, {TestimonialCard} from './Card.js';
 
 function SpecialCardList( {CardData} ) {
   return (

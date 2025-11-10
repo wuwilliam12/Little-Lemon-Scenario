@@ -1,7 +1,7 @@
 import './Header.css';
 
 import Nav from './Nav';
-import Logo from '../icons_assets/Logo.svg';
+import Logo from '../../icons_assets/Logo.svg';
 
 function Header() {
   return (

@@ -1,0 +1,41 @@
+.hero-section {
+  background-color: var(--primary-color-green);
+}
+
+.hero-content {
+  grid-column: 3 / -3;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-block: 2rem;
+}
+
+.hero-left {
+  flex: 1 1 40%;
+}
+
+.hero-right {
+  flex: 1 1 40%;
+}
+
+.hero-image {
+  width: 100%;
+  height: 400px;
+  max-width: 500px;
+  object-fit: cover;
+  border-radius: var(--corners-2);
+}
+
+.reserve-button {
+  max-height: 60px;
+  background-color: var(--primary-color-yellow);
+  border-radius: var(--corners-2);
+  padding: 1rem 2rem;
+  border: none;
+
+  margin-top: 2rem;
+}
+
+.reserve-button:hover {
+  background-color: var(--secondary-color-salmon);
+}
