@@ -1,38 +1,41 @@
-import "./Card.css"
+import "./Card.css";
 
-function SpecialCard({ ImgSrc, DishName, Description, Price }) {
+
+function SpecialCard({ imgSrc, dishName, description, price }) {
   return (
     <>
-      <div className="card">
-        {<img src={ImgSrc}></img>}
+      <div className="specials-card">
+        <img src={`/images/${imgSrc}`} alt={imgSrc} />
 
-        <div className="card-header">
-          <h3>{DishName}</h3>
-          <p>{Price}</p>
+        <div className="specials-card-header text-card-title">
+          <h3>{dishName}</h3>
+          <p className="specials-card-price">${price}</p>
         </div>
 
-        <p>{Description}</p>
+        <p className="specials-card-description text-card-paragraph">{description}</p>
 
-        <button>Order a delivery</button>
+        <button className="specials-card-button text-card-highlight">
+          <span>Order a delivery</span>
+          <svg >
+          </svg>
+        </button>
       </div>
     </>
   );
 }
 
-export function TestimonialCard({ ImgSrc, DishName, Description, Price }) {
+export function TestimonialCard({ ImgSrc }) {
   return (
     <>
       <div className="card">
-        {<img src={ImgSrc}></img>}
+        {<img src={ImgSrc} alt={ImgSrc}></img>}
 
         <div className="card-header">
-          <h3>{DishName}</h3>
-          <p>{Price}</p>
+          <h3>{}</h3>
+          <p>{}</p>
         </div>
 
-        <p>{Description}</p>
-
-        <button>Order a delivery</button>
+        <p>{}</p>
       </div>
     </>
   );

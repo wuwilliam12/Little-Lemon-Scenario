@@ -8,9 +8,10 @@ function SpecialCardList( {CardData} ) {
       {CardData.map((item) => (
         <SpecialCard
           key={item.id}
-          title={item.title}
+          imgSrc={item.image}
+          dishName={item.title}
+          price={item.price}
           description={item.description}
-          image={item.image}
         />
       ))}
     </div>
