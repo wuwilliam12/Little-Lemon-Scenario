@@ -1,8 +1,19 @@
-.card-list {
+.card-list-3,
+.card-list-4 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   padding: 20px;
   justify-items: center;
   box-sizing: border-box;
+
+  height: 600px;       /* set a height */
+  overflow-y: auto;    /* vertical scrolling */
+}
+
+.card-list-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-list-4 {
+  grid-template-columns: repeat(4, 1fr);
 }

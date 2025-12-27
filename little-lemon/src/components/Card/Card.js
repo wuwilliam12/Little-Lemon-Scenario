@@ -24,18 +24,18 @@ function SpecialCard({ imgSrc, dishName, description, price }) {
   );
 }
 
-export function TestimonialCard({ ImgSrc }) {
+export function TestimonialCard({ ImgSrc, rating, name, reviewText }) {
   return (
     <>
       <div className="card">
-        {<img src={ImgSrc} alt={ImgSrc}></img>}
+        <h4>{rating}</h4>
 
-        <div className="card-header">
-          <h3>{}</h3>
-          <p>{}</p>
+        <div className="profile">
+          <img src={ImgSrc} alt={ImgSrc}></img>
+          <h3>{name}</h3>
         </div>
 
-        <p>{}</p>
+        <p className="text-card-paragraph">{reviewText}</p>
       </div>
     </>
   );

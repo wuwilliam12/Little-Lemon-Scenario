@@ -3,46 +3,54 @@
   font-size: var(--fs-title);
   font-weight: var(--fw-medium);
   font-family: var(--ff-markzai);
+  line-height: 1.05;
 }
 
 .text-subtitle {
   font-size: var(--fs-subtitle);
   font-weight: var(--fw-regular);
   font-family: var(--ff-markzai);
+  line-height: 1.1;
 }
 
 .text-lead {
   font-size: var(--fs-lead-text);
   font-weight: var(--fw-medium);
   font-family: var(--ff-karla);
+  line-height: 1.45;
 }
 
 .text-section-title {
   font-size: var(--fs-section-title);
   font-weight: var(--fw-extra-bold);
   font-family: var(--ff-karla);
+  line-height: 1.2;
 }
 
 .text-section-category {
   font-size: var(--fs-section-categories);
   font-weight: var(--fw-extra-bold);
   font-family: var(--ff-karla);
+  line-height: 1.25;
 }
 
 .text-card-title {
   font-size: var(--fs-card-title);
   font-weight: var(--fw-bold);
   font-family: var(--ff-karla);
+  line-height: 1.2;
 }
 
 .text-card-paragraph {
   font-size: var(--fs-card-paragraph);
   font-weight: var(--fw-regular);
   font-family: var(--ff-karla);
+  line-height: 1.5;
 }
 
 .text-card-highlight {
   font-size: var(--fs-card-highlight);
   font-weight: var(--fw-medium);
   font-family: var(--ff-karla);
+  line-height: 1.3;
 }

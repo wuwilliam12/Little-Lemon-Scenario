@@ -7,9 +7,11 @@ function Header() {
   return (
     <>
       <div className='header'>
-        <img src={Logo} alt="Little Lemon Logo" className="logo" /> {/* Logo */}
+        {/* Logo */}
+        <img src={Logo} alt="Little Lemon Logo" className="logo" />
 
-        <div className='headerNav'><Nav navType="header" /></div> {/* Primary Navigation */}
+        {/* Primary Navigation */}
+        <div className='headerNav'><Nav navType="header" /></div>
       </div>
     </>
   );

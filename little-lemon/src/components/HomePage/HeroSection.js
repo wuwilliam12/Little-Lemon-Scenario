@@ -4,8 +4,8 @@ import HeroImage from '../../icons_assets/restauranfood.jpg';
 
 function HeroSection() {
   return(
-    <div className='hero-section section-row'>
-      <div className='hero-content'>
+    <div className='hero-section sec-row-ul'>
+      <div className='hero-content sec-row-l'>
         <div className="hero-left">
           <h1 className='text-display-title'>Little Lemon</h1>
           <h3 className='text-subtitle'>Chicago</h3>

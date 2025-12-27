@@ -12,14 +12,14 @@ function HomePage() {
   return (
     <>
       <div className="layout">
-        <header className="section-row"><Header /></header>
+        <header className="sec-row-l"><Header /></header>
 
-        <section><HeroSection /></section>
-        <section><SpecialsSection /></section>
-        {/*<section className="section-row"><TestimonialSection /></section>
-        <section className="section-row"><AboutSection /></section>*/}
+        <section className="sec-row-ul"><HeroSection /></section>
+        <section className="sec-row-l"><SpecialsSection /></section>
+        <section className="sec-row-l"><TestimonialSection /></section>
+        <section className="sec-row-ul"><AboutSection /></section>
 
-        <footer className="section-row"><Footer /></footer>
+        <footer className="sec-row-l"><Footer /></footer>
       </div>
     </>
   );

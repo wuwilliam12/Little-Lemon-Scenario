@@ -2,10 +2,28 @@
   background-color: var(--primary-color-green);
 }
 
+.about-content {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
 .about-text {
-  grid-column: 3 / -7;
+  flex: 1;
 }
 
 .about-images {
-  grid-column: 7 / -3;
+  flex: 1;
+}
+
+.about-1{
+  height: 500px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about-2 {
+  height: 500px;
+  width: 100%;
+  border-radius: 8px;
 }

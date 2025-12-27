@@ -4,7 +4,7 @@ import SpecialCard, {TestimonialCard} from './Card.js';
 
 function SpecialCardList( {CardData} ) {
   return (
-    <div className="card-list">
+    <div className="card-list-3">
       {CardData.map((item) => (
         <SpecialCard
           key={item.id}
@@ -20,7 +20,7 @@ function SpecialCardList( {CardData} ) {
 
 export function TestimonialCardList( {CardData} ) {
   return (
-    <div className="card-list">
+    <div className="card-list-4">
       {CardData.map((item) => (
         <TestimonialCard
           key={item.id}
