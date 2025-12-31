@@ -14,7 +14,7 @@ function Footer() {
 
         {/* Doormat Navigation */}
         <div className='footer-col'>
-          <h1 className='text-lead'>Doormat Navigation</h1>
+          <h1 className='text-lead'>Navigation</h1>
           <Nav navType='doormat' listStyle='footer-list text-card-paragraph'/>
         </div>
 

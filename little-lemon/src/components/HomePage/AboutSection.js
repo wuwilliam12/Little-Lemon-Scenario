@@ -20,8 +20,12 @@ function About() {
           </div>
 
           <div className="about-images">
-            <img src={About1} alt="About 1" className="about-1" />
-            <img src={About2} alt="About 2" className="about-2" />
+            <div className="image">
+              <img src={About1} alt="About 1" className="about-1" />
+            </div>
+            <div className="image">
+              <img src={About2} alt="About 2" className="about-2" />
+            </div>
           </div>
         </div>
       </div>
